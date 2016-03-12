@@ -1,0 +1,9 @@
+<!doctype html>
+<!--jinja2 is the templating language for Python that flask uses-->
+
+<title>Hello from Flask</title>
+{% if name %}
+	<h1>Goodbye {{ name }}! Time for bed</h1>
+{% else %}
+	<h1>Hello World!</h1>
+{% endif %}
